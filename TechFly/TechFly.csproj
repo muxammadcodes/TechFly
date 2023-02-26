@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TachFly.Domain\TachFly.Domain.csproj" />
+    <ProjectReference Include="..\TechFly.DataAccess\TechFly.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
