@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace TachFly.Domain.Commons;
 
-namespace TachFly.Domain.Commons
+public abstract class BaseEntity
 {
-    internal class BaseEntity
-    {
-    }
+    public long Id { get; set; }
 }

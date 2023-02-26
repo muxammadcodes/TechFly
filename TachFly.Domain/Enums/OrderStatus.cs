@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TachFly.Domain.Enums
+﻿namespace TachFly.Domain.Enums
 {
-    internal class OrderStatus
+    public enum OrderStatus
     {
+        InQueue = 0,
+        Confirmed = 1,
+        OnProcess = 2,
+        OnDelivery = 3,
+        InPoint = 4,
+        Successful = 5,
+        Cancelled = -1,
     }
 }

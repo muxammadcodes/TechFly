@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TachFly.Domain.Commons
+﻿namespace TachFly.Domain.Commons
 {
-    internal class Auditable
+    public abstract class Auditable : BaseEntity
     {
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set;}
     }
 }

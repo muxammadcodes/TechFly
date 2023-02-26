@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TachFly.Domain.Enums
+﻿namespace TachFly.Domain.Enums
 {
-    internal class PaymentType
+    public enum PaymentType
     {
+        Cash = 10,
+        Uzcard = 20,
+        Visa = 30,
+        Unionpay = 40,
+        Mastercard = 50,
+
     }
 }

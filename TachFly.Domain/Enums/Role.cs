@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace TachFly.Domain.Enums
 {
-    internal class UserRole
+    public enum Role
     {
+        SuperAdmin = 1,
+        Admin = 2,
+        Clent = 3,
     }
 }

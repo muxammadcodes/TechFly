@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TachFly.Domain.Commons;
 
-namespace TachFly.Domain.Entities.Products
+namespace TachFly.Domain.Entities.Products;
+
+public class Product : Auditable
 {
-    internal class Product
-    {
-    }
+    public string Name { get; set; } = string.Empty;
+    public decimal Price { get; set; }
+    public string Description { get; set; } = string.Empty;
+    public long CategoryId { get; set; }
+
 }
