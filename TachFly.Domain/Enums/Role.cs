@@ -8,7 +8,6 @@ namespace TachFly.Domain.Enums
 {
     public enum Role
     {
-        SuperAdmin = 1,
         Admin = 2,
         Clent = 3,
     }
